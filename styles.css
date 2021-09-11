@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cruz{
+    max-width: 800px;
+    height: 400px;
+    margin: 200px auto;
+}
+
+.lineaA{
+    width: 50%;
+    height: 50%;
+    border-style: none solid solid none;
+    border-width: thin;
+    border-color: lightslategray;
+}
+
+.lineaB{
+    width: 50%;
+    height: 50%;
+    border-style: none solid none none;
+    border-width: thin;
+    border-color: lightslategray;
+}
+
+.lineaC{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    border-style: none none solid none;
+    border-width: thin;
+    border-color: lightslategray;
+    left: 50%;
+    bottom: 100.3%;
+}
